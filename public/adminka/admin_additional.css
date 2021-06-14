@@ -1,0 +1,34 @@
+.create_button_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 768px) {
+  .create_button_wrap {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .create_button_wrap h3 {
+    margin-bottom: 15px;
+  }
+}
+
+.mistake {
+  color: #e74c3c;
+  font-size: 12px;
+}
+
+.error_line {
+  border: 1px solid #e74c3c;
+}
+
+.wrapVnomere {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapVnomere div {
+  margin-right: 25px;
+  width: 25%;
+}

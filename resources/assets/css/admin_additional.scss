@@ -1,0 +1,43 @@
+
+.create_button_wrap	{
+	display: flex; 
+	justify-content:space-between; 
+	align-items:center;
+
+	@media only screen and (max-width: 768px) {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	h3 {
+		@media only screen and (max-width: 768px) {
+			margin-bottom: 15px;
+			// border: 1px solid red;
+		}
+	}
+}
+ 
+
+
+.mistake {
+	color:#e74c3c;
+	font-size: 12px;
+}
+
+.error_line	{
+	border:1px solid #e74c3c;
+}
+
+
+
+.wrapVnomere {
+	// border:1px solid #eee;
+	display: flex;
+	flex-wrap: wrap;
+
+	div {
+		margin-right: 25px;
+		// border:1px solid #ccc;
+		width: 25%;
+	}
+}
